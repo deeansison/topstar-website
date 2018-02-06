@@ -1,0 +1,311 @@
+@import "_fontextend.scss";
+
+
+body {
+	//background-color: #c9683d;
+	overflow-x: hidden;
+}
+
+.main-container {
+	max-width: 810px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	padding: 0;
+	position: relative;
+}
+
+.header-banner {
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  min-height: 488px;
+  position: relative;
+
+  #logo {
+  	position: relative;
+	display: block;
+	width: 100%;
+	max-height: 296px;
+	max-width: 360px;		
+    padding-top: 37px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.header-ban {
+	img#logo {
+		width: 100%;
+	}
+}
+
+.banner-caption {
+	position: relative;
+	padding-left: 24px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	padding-right: 24px;
+	display: block;
+
+	.headline {
+		font-family: 'creativeblock_bbbold';
+		font-size: 32px;
+		color: #fff;
+	}
+	
+	p {
+		color: #fff;
+		font-family: 'poetsen';
+		font-size: 16px;
+		margin: 0;
+	}
+}
+
+.block-1 {
+	margin: 0;
+	padding: 40px;
+	position: relative;
+	.image-block {
+		img{
+			width: 90%;
+			margin: 0 auto;
+			display: block;
+		}
+	}
+
+	.descrp{
+		p{
+			font-size: 16px;
+			font-style: bold;
+			color: black; 
+		}
+
+		img{
+			width: 60px;
+		
+		}
+	}
+	
+}
+
+.block-2 {
+	padding: 20px 30px 0 30px;
+	background-color: #f7f7f7;
+	margin: 0;
+	h2.entry {
+		font-family: 'creativeblock_bbbold';
+		font-size: 40px;
+		color: #ff5d00;
+		padding: 30px 0 0px 22px;
+	}
+	h2.onlinevoting-announcement {
+		font-size: 17px;
+		padding: 5px 0 22px 22px;
+		line-height: 1.5em;
+		font-family: 'poetsen';
+		color: #ff5d00;
+	}
+	.footer.page-component {
+		display: none;
+	}
+
+	form.woob-form {
+		display: block;
+		.input-label {
+			font-family: 'poetsen';
+		}
+	}
+}
+
+.block-3 {
+	margin: 0;
+	padding: 40px 20px;
+	span {
+		display: block;
+    padding: 10px 0 5px 25px;
+    &.span-last {
+    	padding-bottom: 0;
+    }
+	}
+	ol {
+		& > li{
+	    padding-left: 15px;
+	    margin: 15px 0;
+		}
+	}
+	li {
+		font-size: 16px;
+		color: #4a4a4a;
+		font-family: 'poetsen';
+		margin: 10px 0;
+	}
+	strong {
+		font-family: 'poetsen';
+		color: #ff5d00;
+	}
+	a {
+		display: block;
+		max-width: 300px;
+		text-align: center;
+		padding: 15px;
+		border: 1px solid #ff5d00;
+		color: #fff;
+		font-family: 'poetsen';
+		border-radius: 10px;
+		margin: 40px auto 20px;
+		text-decoration: none;
+		background-color: #ff5d00;
+		border-radius: 0;
+		&:hover {
+			background-color: #ff5d00;
+			color: #FFF;
+		}
+	}
+}
+
+.descrp {
+	p {
+		color: #4a4a4a;
+		font-size: 18px;
+		font-family: 'poetsen';
+		line-height: 1.7em;
+		&:nth-child(3) {
+			margin-top: 34px;
+			display: block;
+    }
+	}
+	.head-p {
+		font-family: 'creativeblock_bbregular';
+		font-size: 22px;
+		color: #f2614d;
+		line-height: 1.3em;
+	}
+	a.button-mech {
+		text-decoration:none;
+		text-align: center;
+		padding: 10px;
+		border: 1px solid #ff5d00;
+		font-family:'poetsen';
+		color: #fff;
+		border-radius: 0px;
+		width: 100%;
+    display: block;
+    background-color: #ff5d00;
+		&:hover {
+			background-color: #ff5d00;
+    	color: #fff !important;
+		}
+	}
+}
+
+footer {
+	padding: 50px 26px 25px 26px;
+  background-color: #ff5d00;
+	p {
+		color: #fff;
+		font-family: 'poetsen';
+		font-size: 12px;
+		margin: 0 auto;
+    max-width: 703px;
+    padding: 20px;
+	}
+}
+
+.block-3.mobile {
+	padding: 0 !important;
+}
+
+#mechnics-modal {
+	padding: 0 !important;
+}
+
+.button-mech.mobile {
+	display: block;
+}
+
+.block-3.desktop {
+	display: block !important;
+}
+
+
+span#logo {
+	  background: url(../images/logo-inline.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    text-indent: -999999em;
+    color: #fff;
+    height: 43px;
+    background-position: 2px -3px;
+    width: 101px;
+    display: inline-block;
+
+}
+
+.parent-woobox {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.woobox-offer {
+	position: relative;
+	display: block;
+}
+
+
+@media (max-width: 768px) {
+	.block-1 {
+	  padding: 20px 20px 0 20px;
+	  .image-block {
+	  	padding-bottom: 20px;
+	  }
+	}
+
+	.block-2  {
+		padding: 20px 15px 0 15px;
+		h2.entry {
+	    font-size: 22px;
+	    padding: 0;
+		}
+	}
+
+	footer.page-component {
+		height: 10px !important;
+	}
+
+	#mechanics {
+		ol {
+			padding: 0 10px 0 20px;
+		}	
+	}
+
+	.descrp .head-p {
+		font-size: 16px;
+	}
+	.block-3 span {
+		padding: 10px 0 5px 15px;
+	}
+
+	iframe#hb5vfk_0_offer {
+		width: 100%;
+		display: block;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+	.button-mech.mobile {
+		display: block !important;
+	}
+
+	.button-mech.desktop {
+		display: none !important;
+	}
+
+	.block-3.desktop {
+		display: none !important;
+	}
+
+}

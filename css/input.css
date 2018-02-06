@@ -1,0 +1,358 @@
+@font-face {
+  font-family: 'creativeblock_bbbold';
+  src: url("../fonts/creabbb-webfont.woff2") format("woff2"), url("../fonts/creabbb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'creativeblock_bbregular';
+  src: url("../fonts/creabbrg-webfont.woff2") format("woff2"), url("../fonts/creabbrg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoRegular';
+  src: url("../fonts/lato-reg-webfont.eot");
+  src: url("../fonts/lato-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-reg-webfont.woff") format("woff"), url("../fonts/lato-reg-webfont.ttf") format("truetype"), url("../fonts/lato-reg-webfont.svg#LatoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBold';
+  src: url("../fonts/lato-bol-webfont.eot");
+  src: url("../fonts/lato-bol-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bol-webfont.woff") format("woff"), url("../fonts/lato-bol-webfont.ttf") format("truetype"), url("../fonts/lato-bol-webfont.svg#LatoBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBlack';
+  src: url("../fonts/lato-bla-webfont.eot");
+  src: url("../fonts/lato-bla-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bla-webfont.woff") format("woff"), url("../fonts/lato-bla-webfont.ttf") format("truetype"), url("../fonts/lato-bla-webfont.svg#LatoBlack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoItalic';
+  src: url("../fonts/lato-regita-webfont.eot");
+  src: url("../fonts/lato-regita-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-regita-webfont.woff") format("woff"), url("../fonts/lato-regita-webfont.ttf") format("truetype"), url("../fonts/lato-regita-webfont.svg#LatoItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBoldItalic';
+  src: url("../fonts/lato-bolita-webfont.eot");
+  src: url("../fonts/lato-bolita-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bolita-webfont.woff") format("woff"), url("../fonts/lato-bolita-webfont.ttf") format("truetype"), url("../fonts/lato-bolita-webfont.svg#LatoBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LatoBlackItalic';
+  src: url("../fonts/lato-blaita-webfont.eot");
+  src: url("../fonts/lato-blaita-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-blaita-webfont.woff") format("woff"), url("../fonts/lato-blaita-webfont.ttf") format("truetype"), url("../fonts/lato-blaita-webfont.svg#LatoBlackItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'latolight';
+  src: url("../fonts/lato-light-webfont.woff2") format("woff2"), url("../fonts/lato-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dksugary';
+  src: url("../fonts/dk_sugary_pancake_0-webfont.woff2") format("woff2"), url("../fonts/dk_sugary_pancake_0-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poetsen';
+  src: url("../fonts/poetsenone-regular-webfont.woff2") format("woff2"), url("../fonts/poetsenone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
+}
+
+.main-container {
+  max-width: 810px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 0;
+  position: relative;
+}
+
+.header-banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  min-height: 488px;
+  position: relative;
+}
+.header-banner #logo {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-height: 296px;
+  max-width: 360px;
+  padding-top: 37px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header-ban img#logo {
+  width: 100%;
+}
+
+.banner-caption {
+  position: relative;
+  padding-left: 24px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  padding-right: 24px;
+  display: block;
+}
+.banner-caption .headline {
+  font-family: 'creativeblock_bbbold';
+  font-size: 32px;
+  color: #fff;
+}
+.banner-caption p {
+  color: #fff;
+  font-family: 'poetsen';
+  font-size: 16px;
+  margin: 0;
+}
+
+.block-1 {
+  margin: 0;
+  padding: 40px;
+  position: relative;
+}
+.block-1 .image-block img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.block-1 .descrp p {
+  font-size: 16px;
+  font-style: bold;
+  color: black;
+}
+.block-1 .descrp img {
+  width: 60px;
+}
+
+.block-2 {
+  padding: 20px 30px 0 30px;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+.block-2 h2.entry {
+  font-family: 'creativeblock_bbbold';
+  font-size: 40px;
+  color: #ff5d00;
+  padding: 30px 0 0px 22px;
+}
+.block-2 h2.onlinevoting-announcement {
+  font-size: 17px;
+  padding: 5px 0 22px 22px;
+  line-height: 1.5em;
+  font-family: 'poetsen';
+  color: #ff5d00;
+}
+.block-2 .footer.page-component {
+  display: none;
+}
+.block-2 form.woob-form {
+  display: block;
+}
+.block-2 form.woob-form .input-label {
+  font-family: 'poetsen';
+}
+
+.block-3 {
+  margin: 0;
+  padding: 40px 20px;
+}
+.block-3 span {
+  display: block;
+  padding: 10px 0 5px 25px;
+}
+.block-3 span.span-last {
+  padding-bottom: 0;
+}
+.block-3 ol > li {
+  padding-left: 15px;
+  margin: 15px 0;
+}
+.block-3 li {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-family: 'poetsen';
+  margin: 10px 0;
+}
+.block-3 strong {
+  font-family: 'poetsen';
+  color: #ff5d00;
+}
+.block-3 a {
+  display: block;
+  max-width: 300px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ff5d00;
+  color: #fff;
+  font-family: 'poetsen';
+  border-radius: 10px;
+  margin: 40px auto 20px;
+  text-decoration: none;
+  background-color: #ff5d00;
+  border-radius: 0;
+}
+.block-3 a:hover {
+  background-color: #ff5d00;
+  color: #FFF;
+}
+
+.descrp p {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-family: 'poetsen';
+  line-height: 1.7em;
+}
+.descrp p:nth-child(3) {
+  margin-top: 34px;
+  display: block;
+}
+.descrp .head-p {
+  font-family: 'creativeblock_bbregular';
+  font-size: 22px;
+  color: #f2614d;
+  line-height: 1.3em;
+}
+.descrp a.button-mech {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ff5d00;
+  font-family: 'poetsen';
+  color: #fff;
+  border-radius: 0px;
+  width: 100%;
+  display: block;
+  background-color: #ff5d00;
+}
+.descrp a.button-mech:hover {
+  background-color: #ff5d00;
+  color: #fff !important;
+}
+
+footer {
+  padding: 50px 26px 25px 26px;
+  background-color: #ff5d00;
+}
+footer p {
+  color: #fff;
+  font-family: 'poetsen';
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 703px;
+  padding: 20px;
+}
+
+.block-3.mobile {
+  padding: 0 !important;
+}
+
+#mechnics-modal {
+  padding: 0 !important;
+}
+
+.button-mech.mobile {
+  display: block;
+}
+
+.block-3.desktop {
+  display: block !important;
+}
+
+span#logo {
+  background: url(../images/logo-inline.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  text-indent: -999999em;
+  color: #fff;
+  height: 43px;
+  background-position: 2px -3px;
+  width: 101px;
+  display: inline-block;
+}
+
+.parent-woobox {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.woobox-offer {
+  position: relative;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .block-1 {
+    padding: 20px 20px 0 20px;
+  }
+  .block-1 .image-block {
+    padding-bottom: 20px;
+  }
+
+  .block-2 {
+    padding: 20px 15px 0 15px;
+  }
+  .block-2 h2.entry {
+    font-size: 22px;
+    padding: 0;
+  }
+
+  footer.page-component {
+    height: 10px !important;
+  }
+
+  #mechanics ol {
+    padding: 0 10px 0 20px;
+  }
+
+  .descrp .head-p {
+    font-size: 16px;
+  }
+
+  .block-3 span {
+    padding: 10px 0 5px 15px;
+  }
+
+  iframe#hb5vfk_0_offer {
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .button-mech.mobile {
+    display: block !important;
+  }
+
+  .button-mech.desktop {
+    display: none !important;
+  }
+
+  .block-3.desktop {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=input.css.map */
