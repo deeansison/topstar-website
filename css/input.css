@@ -137,6 +137,11 @@ body {
   margin: 0 auto;
   display: block;
 }
+.block-1 .descrp .head-p {
+  color: #ee5822;
+  font-size: 24px;
+  font-style: bold;
+}
 .block-1 .descrp p {
   font-size: 16px;
   font-style: bold;
@@ -144,6 +149,11 @@ body {
 }
 .block-1 .descrp img {
   width: 60px;
+}
+
+.Submit_Entry .sub_entry_head {
+  color: #f2614d;
+  font-size: 30px;
 }
 
 .block-2 {
@@ -189,10 +199,14 @@ body {
   padding-left: 15px;
   margin: 15px 0;
 }
+.block-3 ol > li .mech_img {
+  width: 90px;
+  padding: 5px;
+}
 .block-3 li {
   font-size: 16px;
   color: #4a4a4a;
-  font-family: 'poetsen';
+  font-family: 'arial';
   margin: 10px 0;
 }
 .block-3 strong {
