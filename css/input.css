@@ -140,19 +140,23 @@ body {
 .block-1 .descrp .head-p {
   color: #ee5822;
   font-size: 24px;
-  font-style: bold;
 }
 .block-1 .descrp p {
   font-size: 16px;
   font-style: bold;
   color: black;
 }
-.block-1 .descrp img {
-  width: 60px;
+.block-1 .descrp #p3 {
+  width: 80px;
+  padding: 5px;
+}
+.block-1 .descrp #p4 {
+  width: 90px;
+  margin-top: -5%;
 }
 
 .Submit_Entry .sub_entry_head {
-  color: #f2614d;
+  color: #ff5d00;
   font-size: 30px;
 }
 
@@ -200,18 +204,37 @@ body {
   margin: 15px 0;
 }
 .block-3 ol > li .mech_img {
-  width: 90px;
+  width: 73px;
   padding: 5px;
 }
-.block-3 li {
+.block-3 ol {
+  line-height: 0.5;
+}
+.block-3 ol li {
   font-size: 16px;
-  color: #4a4a4a;
+  color: black;
   font-family: 'arial';
   margin: 10px 0;
+  line-height: 1.5em;
+}
+.block-3 ol li .line {
+  display: inline-block;
+  border-bottom: 2px #ff5d00 solid;
+  width: 5%;
+}
+.block-3 ol li ul li {
+  line-height: 1.5;
+}
+.block-3 ol li ul li ul li {
+  line-height: 1;
+}
+.block-3 ol li ul li ol li {
+  line-height: 1;
 }
 .block-3 strong {
   font-family: 'poetsen';
   color: #ff5d00;
+  font-weight: normal;
 }
 .block-3 a {
   display: block;
@@ -230,6 +253,9 @@ body {
 .block-3 a:hover {
   background-color: #ff5d00;
   color: #FFF;
+}
+.block-3 .sub_ent {
+  font-family: 'lato';
 }
 
 .descrp p {
@@ -253,7 +279,7 @@ body {
   text-align: center;
   padding: 10px;
   border: 1px solid #ff5d00;
-  font-family: 'poetsen';
+  font-family: 'lato';
   color: #fff;
   border-radius: 0px;
   width: 100%;
@@ -270,9 +296,9 @@ footer {
   background-color: #ff5d00;
 }
 footer p {
-  color: #fff;
-  font-family: 'poetsen';
-  font-size: 12px;
+  color: #e7e0e0;
+  font-family: 'lato';
+  font-size: 14px;
   margin: 0 auto;
   max-width: 703px;
   padding: 20px;
@@ -366,6 +392,10 @@ span#logo {
 
   .block-3.desktop {
     display: none !important;
+  }
+
+  #line_3 {
+    font-size: 14px;
   }
 }
 

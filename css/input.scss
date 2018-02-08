@@ -1,5 +1,5 @@
-@import "_fontextend.scss";
 
+@import "fontextend";
 
 body {
 	//background-color: #c9683d;
@@ -81,7 +81,7 @@ body {
 		.head-p{
 			color: rgb(238, 88, 34); 
 			font-size: 24px;
-			font-style: bold;
+		
 		}
 		
 		p{
@@ -90,13 +90,21 @@ body {
 			color: black; 
 		}
 
-		img{
-			width: 60px;
+		#p3{
+			width: 80px;
+			padding: 5px;
+		
+		}
+		#p4{
+			width: 90px;
+			margin-top: -5%;
 		
 		}
 
+
 		
 	}
+
 	
 }
 
@@ -105,7 +113,7 @@ body {
 .Submit_Entry{
 
 	.sub_entry_head{
-		color: #f2614d;
+		color: #ff5d00;
 		font-size: 30px;
 	}
 
@@ -144,6 +152,7 @@ body {
 			font-family: 'poetsen';
 		}
 	}
+
 }
 
 .block-3 {
@@ -162,21 +171,60 @@ body {
 		margin: 15px 0;
 
 		.mech_img{
-			width: 90px;
+			width: 73px;
 			padding: 5px;
 		}
 		}
+
+
+		
 	}
 	
+	ol{
+		line-height: 0.5;
 	li {
 		font-size: 16px;
-		color: #4a4a4a;
+		color:black;
 		font-family: 'arial';
 		margin: 10px 0;
-	}
+		line-height: 1.5em;
+
+		.line
+		{
+			display:inline-block;
+			border-bottom:2px #ff5d00 solid;
+			
+			width:5%;
+		}
+		
+		ul{
+			li{
+				line-height: 1.5;
+				ul{
+					li{
+						line-height: 1;
+					}
+				}
+				ol{
+					li{
+						line-height: 1;
+					}
+				}
+			}
+		}
+			
+		}
+	}	
+	
+
+
 	strong {
 		font-family: 'poetsen';
 		color: #ff5d00;
+		font-weight: normal;
+	
+		
+
 	}
 	a {
 		display: block;
@@ -196,6 +244,12 @@ body {
 			color: #FFF;
 		}
 	}
+	
+	.sub_ent{
+		font-family: 'lato';
+		
+	}
+	
 }
 
 .descrp {
@@ -220,7 +274,7 @@ body {
 		text-align: center;
 		padding: 10px;
 		border: 1px solid #ff5d00;
-		font-family:'poetsen';
+		font-family:'lato';
 		color: #fff;
 		border-radius: 0px;
 		width: 100%;
@@ -237,12 +291,12 @@ footer {
 	padding: 50px 26px 25px 26px;
   background-color: #ff5d00;
 	p {
-		color: #fff;
-		font-family: 'poetsen';
-		font-size: 12px;
+		color: rgb(231, 224, 224);
+		font-family: 'lato';
+		font-size: 14px;
 		margin: 0 auto;
-    max-width: 703px;
-    padding: 20px;
+		max-width: 703px;
+		padding: 20px;
 	}
 }
 
@@ -340,4 +394,13 @@ span#logo {
 		display: none !important;
 	}
 
+	#line_3{
+		font-size: 14px;
+	}
+
+	
+	
+
 }
+
+
